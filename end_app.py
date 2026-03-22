@@ -50,6 +50,7 @@ def close_app(app_name: str | int | None , using_file_name: bool | None = None):
     return
 #  #  #  #  #  #  #  #  #  #
 if __name__ == "__main__":
-    close_app('app', True)
+    close_app('app')
+    # close_app('app', True) ## Does not use the app_name parameter
     # close_app(None, True)
     # close_app('app', None)
